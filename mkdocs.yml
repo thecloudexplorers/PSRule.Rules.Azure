@@ -47,6 +47,7 @@ nav:
     - Overview:
       - About: about.md
       - Features: features.md
+      - Azure DevOps coverage: azure-devops-coverage.md
       - FAQ: faq.md
     - Install: install.md
     - Quickstarts:

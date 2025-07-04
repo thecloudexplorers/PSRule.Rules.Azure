@@ -32,12 +32,16 @@ To help you align your Infrastructure as Code (IaC) to WAF principles, PSRule fo
 Included are examples, references to WAF and product documentation.
 This allows you to explore and learn the context of each WAF principle.
 
+PSRule for Azure provides comprehensive coverage for Azure DevOps services aligned with WAF principles.
+See [Azure DevOps coverage][14] for detailed information on how Azure DevOps capabilities map to each WAF pillar.
+
   [2]: https://learn.microsoft.com/azure/architecture/framework/
   [9]: en/rules/module.md#cost-optimization
   [10]: en/rules/module.md#operational-excellence
   [11]: en/rules/module.md#performance-efficiency
   [12]: en/rules/module.md#reliability
   [13]: en/rules/module.md#security
+  [14]: azure-devops-coverage.md
 
 ## Start day one
 
