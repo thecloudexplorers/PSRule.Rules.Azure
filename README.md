@@ -2,16 +2,17 @@
 
 A suite of rules to test Azure resources and Infrastructure as Code (IaC) using PSRule.
 The built-in rules test the configuration of Azure resources for security, reliability, and much more.
+Additionally, PSRule for Azure now supports Azure DevOps assessments based on DevOps foundation principles.
 Rules can be created to enforce your own policies and standards.
 
 [![Open in vscode.dev](https://img.shields.io/badge/Open%20in-vscode.dev-blue)][1]
 
 Features of PSRule for Azure include:
 
-- [Learn by example][6] - Fix issues quickly, and learn how to improve your Infrastructure as Code..
-- [Framework aligned][7] - Apply principals of Azure Well-Architected Framework to your workloads.
-- [Start day one][2] - Leverage over 450 pre-built rules to test Azure resources.
-- [DevOps integrated][3] - Test Azure infrastructure as code such as Bicep or Azure Resource Manager templates.
+- [Learn by example][6] - Fix issues quickly, and learn how to improve your Infrastructure as Code.
+- [Framework aligned][7] - Apply principles of Azure Well-Architected Framework and DevOps foundation to your workloads.
+- [Start day one][2] - Leverage over 450 pre-built rules to test Azure resources and DevOps practices.
+- [DevOps integrated][3] - Test Azure infrastructure as code such as Bicep or Azure Resource Manager templates, plus Azure DevOps configurations.
 - [Cross-platform][4] - Run locally or in the cloud on MacOS, Linux, and Windows.
 - [Open community][8] - Open source rules for the Azure community.
 
@@ -27,9 +28,11 @@ Features of PSRule for Azure include:
 
 1. **Ready to go**:
    - Provide a [Azure Well-Architected Framework][5] aligned suite of rules for validating Azure resources.
+   - Provide DevOps foundation aligned rules for validating Azure DevOps practices.
    - Provide meaningful information to allow remediation.
 2. **DevOps**:
    - Resources and Azure code can be tested before deployment within DevOps workflows.
+   - Azure DevOps projects, repositories, and pipelines can be assessed for best practices.
    - Allow pull request (PR) validation to prevent invalid configuration from being merged.
 3. **Enterprise ready**:
    - Rules can be directly adopted and additional enterprise specific rules can be layered on.
