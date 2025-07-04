@@ -1,0 +1,242 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
+#
+# Azure DevOps pillar and capability specific baselines.
+#
+
+---
+# Synopsis: Azure DevOps - Culture pillar specific baseline.
+apiVersion: github.com/microsoft/PSRule/v1
+kind: Baseline
+metadata:
+  name: Azure.DevOps.Pillar.Culture
+  annotations:
+    taxonomy: Azure.DevOps
+    pillar: Culture
+    export: true
+    moduleVersion: v1.42.0
+spec:
+  rule:
+    tag:
+      release: GA
+      Azure.DevOps/pillar: Culture
+
+---
+# Synopsis: Azure DevOps - Lean Product pillar specific baseline.
+apiVersion: github.com/microsoft/PSRule/v1
+kind: Baseline
+metadata:
+  name: Azure.DevOps.Pillar.LeanProduct
+  annotations:
+    taxonomy: Azure.DevOps
+    pillar: Lean Product
+    export: true
+    moduleVersion: v1.42.0
+spec:
+  rule:
+    tag:
+      release: GA
+      Azure.DevOps/pillar: Lean Product
+
+---
+# Synopsis: Azure DevOps - Architecture pillar specific baseline.
+apiVersion: github.com/microsoft/PSRule/v1
+kind: Baseline
+metadata:
+  name: Azure.DevOps.Pillar.Architecture
+  annotations:
+    taxonomy: Azure.DevOps
+    pillar: Architecture
+    export: true
+    moduleVersion: v1.42.0
+spec:
+  rule:
+    tag:
+      release: GA
+      Azure.DevOps/pillar: Architecture
+
+---
+# Synopsis: Azure DevOps - Technology pillar specific baseline.
+apiVersion: github.com/microsoft/PSRule/v1
+kind: Baseline
+metadata:
+  name: Azure.DevOps.Pillar.Technology
+  annotations:
+    taxonomy: Azure.DevOps
+    pillar: Technology
+    export: true
+    moduleVersion: v1.42.0
+spec:
+  rule:
+    tag:
+      release: GA
+      Azure.DevOps/pillar: Technology
+
+---
+# Synopsis: Azure DevOps - Continuous Planning capability baseline.
+apiVersion: github.com/microsoft/PSRule/v1
+kind: Baseline
+metadata:
+  name: Azure.DevOps.Capability.ContinuousPlanning
+  annotations:
+    taxonomy: Azure.DevOps
+    capability: Continuous Planning
+    export: true
+    moduleVersion: v1.42.0
+spec:
+  rule:
+    tag:
+      release: GA
+      Azure.DevOps/capability: Continuous Planning
+
+---
+# Synopsis: Azure DevOps - Continuous Integration capability baseline.
+apiVersion: github.com/microsoft/PSRule/v1
+kind: Baseline
+metadata:
+  name: Azure.DevOps.Capability.ContinuousIntegration
+  annotations:
+    taxonomy: Azure.DevOps
+    capability: Continuous Integration
+    export: true
+    moduleVersion: v1.42.0
+spec:
+  rule:
+    tag:
+      release: GA
+      Azure.DevOps/capability: Continuous Integration
+
+---
+# Synopsis: Azure DevOps - Continuous Delivery capability baseline.
+apiVersion: github.com/microsoft/PSRule/v1
+kind: Baseline
+metadata:
+  name: Azure.DevOps.Capability.ContinuousDelivery
+  annotations:
+    taxonomy: Azure.DevOps
+    capability: Continuous Delivery
+    export: true
+    moduleVersion: v1.42.0
+spec:
+  rule:
+    tag:
+      release: GA
+      Azure.DevOps/capability: Continuous Delivery
+
+---
+# Synopsis: Azure DevOps - Continuous Operations capability baseline.
+apiVersion: github.com/microsoft/PSRule/v1
+kind: Baseline
+metadata:
+  name: Azure.DevOps.Capability.ContinuousOperations
+  annotations:
+    taxonomy: Azure.DevOps
+    capability: Continuous Operations
+    export: true
+    moduleVersion: v1.42.0
+spec:
+  rule:
+    tag:
+      release: GA
+      Azure.DevOps/capability: Continuous Operations
+
+---
+# Synopsis: Azure DevOps - Continuous Security capability baseline.
+apiVersion: github.com/microsoft/PSRule/v1
+kind: Baseline
+metadata:
+  name: Azure.DevOps.Capability.ContinuousSecurity
+  annotations:
+    taxonomy: Azure.DevOps
+    capability: Continuous Security
+    export: true
+    moduleVersion: v1.42.0
+spec:
+  rule:
+    tag:
+      release: GA
+      Azure.DevOps/capability: Continuous Security
+
+---
+# Synopsis: Azure DevOps - Continuous Quality capability baseline.
+apiVersion: github.com/microsoft/PSRule/v1
+kind: Baseline
+metadata:
+  name: Azure.DevOps.Capability.ContinuousQuality
+  annotations:
+    taxonomy: Azure.DevOps
+    capability: Continuous Quality
+    export: true
+    moduleVersion: v1.42.0
+spec:
+  rule:
+    tag:
+      release: GA
+      Azure.DevOps/capability: Continuous Quality
+
+---
+# Synopsis: Azure DevOps - Continuous Improvement capability baseline.
+apiVersion: github.com/microsoft/PSRule/v1
+kind: Baseline
+metadata:
+  name: Azure.DevOps.Capability.ContinuousImprovement
+  annotations:
+    taxonomy: Azure.DevOps
+    capability: Continuous Improvement
+    export: true
+    moduleVersion: v1.42.0
+spec:
+  rule:
+    tag:
+      release: GA
+      Azure.DevOps/capability: Continuous Improvement
+
+---
+# Synopsis: Azure DevOps - Continuous Collaboration capability baseline.
+apiVersion: github.com/microsoft/PSRule/v1
+kind: Baseline
+metadata:
+  name: Azure.DevOps.Capability.ContinuousCollaboration
+  annotations:
+    taxonomy: Azure.DevOps
+    capability: Continuous Collaboration
+    export: true
+    moduleVersion: v1.42.0
+spec:
+  rule:
+    tag:
+      release: GA
+      Azure.DevOps/capability: Continuous Collaboration
+
+---
+# Synopsis: Azure DevOps - All pillars baseline.
+apiVersion: github.com/microsoft/PSRule/v1
+kind: Baseline
+metadata:
+  name: Azure.DevOps.All
+  annotations:
+    taxonomy: Azure.DevOps
+    export: true
+    moduleVersion: v1.42.0
+spec:
+  rule:
+    tag:
+      release: GA
+      Azure.DevOps/pillar: ['Culture', 'Lean Product', 'Architecture', 'Technology']
+
+---
+# Synopsis: Azure DevOps - All capabilities baseline.
+apiVersion: github.com/microsoft/PSRule/v1
+kind: Baseline
+metadata:
+  name: Azure.DevOps.Capabilities.All
+  annotations:
+    taxonomy: Azure.DevOps
+    export: true
+    moduleVersion: v1.42.0
+spec:
+  rule:
+    tag:
+      release: GA
+      Azure.DevOps/capability: ['Continuous Planning', 'Continuous Integration', 'Continuous Delivery', 'Continuous Operations', 'Continuous Security', 'Continuous Quality', 'Continuous Improvement', 'Continuous Collaboration']

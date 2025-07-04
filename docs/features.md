@@ -18,6 +18,10 @@ Use the Azure Bicep or template examples to adapt your solution to recommendatio
 
 ## Framework aligned
 
+PSRule for Azure is aligned to multiple frameworks for comprehensive assessment:
+
+### Azure Well-Architected Framework (WAF)
+
 PSRule for Azure is aligned to the [Azure Well-Architected Framework (WAF)][2].
 Tests called _rules_ check the configuration of Azure resources against WAF principles.
 Rules exist across five (5) WAF pillars:
@@ -28,9 +32,30 @@ Rules exist across five (5) WAF pillars:
 - [Reliability][12]
 - [Security][13]
 
-To help you align your Infrastructure as Code (IaC) to WAF principles, PSRule for Azure includes documentation.
-Included are examples, references to WAF and product documentation.
-This allows you to explore and learn the context of each WAF principle.
+### Azure DevOps Foundation Framework
+
+PSRule for Azure also supports Azure DevOps assessments against DevOps foundation principles.
+Rules exist across four (4) DevOps pillars and eight (8) capabilities:
+
+**DevOps Pillars:**
+- Culture
+- Lean Product
+- Architecture
+- Technology
+
+**DevOps Capabilities:**
+- Continuous Planning
+- Continuous Integration
+- Continuous Delivery
+- Continuous Operations
+- Continuous Security
+- Continuous Quality
+- Continuous Improvement
+- Continuous Collaboration
+
+To help you align your Infrastructure as Code (IaC) to both WAF and DevOps principles, PSRule for Azure includes documentation.
+Included are examples, references to framework and product documentation.
+This allows you to explore and learn the context of each principle.
 
   [2]: https://learn.microsoft.com/azure/architecture/framework/
   [9]: en/rules/module.md#cost-optimization

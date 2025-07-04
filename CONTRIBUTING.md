@@ -135,12 +135,28 @@ Each rule **must** meet the following requirements:
 - Have a `Azure.WAF/pillar` tag identifying the primary WAF pillar the rule aligns to.
   e.g. `-Tag @{ release = 'GA'; ruleSet = '2020_09'; 'Azure.WAF/pillar' = 'Reliability' }`
   - Available pillars are:
-    - `Cost Optimization`
-    - `Operational Excellence`
-    - `Performance Efficiency`
-    - `Reliability`
-    - `Security`
+    - Azure Well-Architected Framework (Azure.WAF):
+      - `Cost Optimization`
+      - `Operational Excellence`
+      - `Performance Efficiency`
+      - `Reliability`
+      - `Security`
+    - Azure DevOps Foundation (Azure.DevOps):
+      - `Culture`
+      - `Lean Product`
+      - `Architecture`
+      - `Technology`
+  - Available capabilities for Azure DevOps are:
+    - `Continuous Planning`
+    - `Continuous Integration`
+    - `Continuous Delivery`
+    - `Continuous Operations`
+    - `Continuous Security`
+    - `Continuous Quality`
+    - `Continuous Improvement`
+    - `Continuous Collaboration`
   - If more then one pillar is applicable, the `Azure.WAF/additionalPillars` label can be added on rules.
+  - For Azure DevOps rules, use both `Azure.DevOps/pillar` and `Azure.DevOps/capability` tags as appropriate.
 - Include an inline `Synopsis: ` comment above each rule.
 
 For example:

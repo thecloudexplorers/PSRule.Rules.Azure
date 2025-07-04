@@ -70,6 +70,28 @@ Name | Synopsis | Status
 [Azure.Pillar.OperationalExcellence](Azure.Pillar.OperationalExcellence.md) | Microsoft Azure Well-Architected Framework - Operational Excellence pillar specific baseline. | Latest
 [Azure.Pillar.CostOptimization](Azure.Pillar.CostOptimization.md) | Microsoft Azure Well-Architected Framework - Cost Optimization pillar specific baseline. | Latest
 
+## Azure DevOps Foundation baselines
+
+DevOps pillar and capability specific baselines provide focused sets of rules for Azure DevOps assessments based on DevOps foundation principles.
+
+### By pillar
+
+Name | Synopsis | Status
+---- | -------- | ------
+[Azure.DevOps.Pillar.Technology](Azure.DevOps.Pillar.Technology.md) | Azure DevOps - Technology pillar specific baseline. | Latest
+[Azure.DevOps.Pillar.Architecture](Azure.DevOps.Pillar.Architecture.md) | Azure DevOps - Architecture pillar specific baseline. | Latest
+[Azure.DevOps.Pillar.LeanProduct](Azure.DevOps.Pillar.LeanProduct.md) | Azure DevOps - Lean Product pillar specific baseline. | Latest
+[Azure.DevOps.Pillar.Culture](Azure.DevOps.Pillar.Culture.md) | Azure DevOps - Culture pillar specific baseline. | Latest
+
+### By capability
+
+Name | Synopsis | Status
+---- | -------- | ------
+[Azure.DevOps.Capability.ContinuousSecurity](Azure.DevOps.Capability.ContinuousSecurity.md) | Azure DevOps - Continuous Security capability baseline. | Latest
+[Azure.DevOps.Capability.ContinuousQuality](Azure.DevOps.Capability.ContinuousQuality.md) | Azure DevOps - Continuous Quality capability baseline. | Latest
+[Azure.DevOps.Capability.ContinuousIntegration](Azure.DevOps.Capability.ContinuousIntegration.md) | Azure DevOps - Continuous Integration capability baseline. | Latest
+[Azure.DevOps.Capability.ContinuousDelivery](Azure.DevOps.Capability.ContinuousDelivery.md) | Azure DevOps - Continuous Delivery capability baseline. | Latest
+
 ## Cloud Adoption Framework baselines
 
 Pillar specific baselines provide a focused set of rules that assist with implementing naming and tagging conventions recommended by the Azure Cloud Adoption Framework (CAF).
